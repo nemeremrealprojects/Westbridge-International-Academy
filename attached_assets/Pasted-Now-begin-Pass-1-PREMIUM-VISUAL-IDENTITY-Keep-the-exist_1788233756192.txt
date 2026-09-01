@@ -1,0 +1,256 @@
+Now begin Pass 1: PREMIUM VISUAL IDENTITY.
+
+Keep the existing architecture, functionality, routes, content structure, and working interactions intact. Do not rebuild the application from scratch.
+
+Your job is to elevate the visual design so Westbridge International Academy feels like a genuinely premium international school in Abuja.
+
+### Brand direction
+
+The visual identity should communicate:
+
+* Academic excellence
+* Trust
+* Warmth
+* Confidence
+* International standards
+* Nigerian/Abuja identity
+* Sophistication
+* A strong sense of community
+
+The design should feel closer to a world-class independent school website and premium editorial publication than a SaaS landing page.
+
+### Colour system
+
+Establish a consistent design system around:
+
+Primary:
+Deep forest green
+
+Secondary:
+Warm ivory / cream
+
+Accent:
+Muted sophisticated gold
+
+Supporting:
+Charcoal, soft sage and restrained neutral tones
+
+Do not introduce bright neon colours.
+
+Avoid excessive gradients.
+
+Use gold sparingly for emphasis rather than decoration.
+
+### Typography
+
+Create a strong typographic hierarchy.
+
+The school name and major headings should feel distinctive and authoritative.
+
+Use an elegant display treatment for major headings and a highly readable sans-serif for body copy.
+
+Pay particular attention to:
+
+* Font sizes
+* Line heights
+* Letter spacing
+* Paragraph width
+* Heading hierarchy
+* Button typography
+* Navigation typography
+
+Do not use excessively heavy typography everywhere.
+
+### Layout
+
+Improve the visual rhythm throughout the site.
+
+Use:
+
+* Generous whitespace
+* Strong alignment
+* Editorial asymmetry where appropriate
+* Large photography
+* Carefully controlled content widths
+* Consistent section spacing
+* Clear visual hierarchy
+
+Do not turn every section into a collection of identical cards.
+
+Use cards only when they genuinely improve the information architecture.
+
+### Photography
+
+Review all images currently used.
+
+Replace weak, generic, obviously artificial or irrelevant imagery where possible.
+
+The imagery should communicate:
+
+* African students
+* Nigerian school life
+* Modern classrooms
+* Teachers interacting with students
+* Science and technology
+* Sport
+* Performing arts
+* Campus life
+* Abuja environment
+
+Images should feel natural and documentary/editorial rather than staged corporate stock photography.
+
+Use consistent image aspect ratios and sophisticated cropping.
+
+### Navbar
+
+Refine the navbar substantially.
+
+It should feel premium and understated.
+
+Create:
+
+* Clean desktop navigation
+* Excellent spacing
+* Clear active states
+* Elegant hover states
+* Strong "Apply Now" CTA
+* Strong "Book a Visit" CTA
+* Excellent mobile navigation
+
+Make sure the navigation remains usable on smaller screens.
+
+### Buttons
+
+Create a consistent button system.
+
+Primary buttons:
+Deep green background, light text.
+
+Secondary buttons:
+Light/ivory background with sophisticated border.
+
+Use subtle hover transitions.
+
+Avoid exaggerated animations.
+
+### Hero
+
+Pay special attention to the homepage hero.
+
+It should immediately communicate:
+
+"premium Abuja international school."
+
+Improve:
+
+* Composition
+* Typography
+* Image treatment
+* CTA hierarchy
+* Spacing
+* Responsive behavior
+* Visual balance
+
+The hero should feel confident and editorial, not like a generic marketing template.
+
+### Section transitions
+
+Create a coherent visual rhythm between sections.
+
+Use subtle changes between:
+
+* Ivory
+* White
+* Deep green
+
+Avoid excessive decorative shapes.
+
+### Cards
+
+Where cards are necessary, make them sophisticated.
+
+Use:
+
+* Subtle borders
+* Minimal shadows
+* Excellent typography
+* Controlled corner radius
+* Strong spacing
+* Meaningful hover states
+
+Avoid making every card look like a floating rounded rectangle.
+
+### Motion
+
+Add only subtle, purposeful motion:
+
+* Fade-in on scroll
+* Gentle image movement
+* Small hover transitions
+* Smooth navigation transitions
+
+Respect prefers-reduced-motion.
+
+Do not make the website feel like an animated technology demo.
+
+### Mobile
+
+Review the entire visual system at:
+
+390px
+375px
+768px
+1024px
+1440px
+
+Pay particular attention to:
+
+* Hero typography
+* Navigation
+* CTA stacking
+* Image crops
+* Section spacing
+* Cards
+* Footer
+* Forms
+
+Nothing should overflow horizontally.
+
+### Important constraints
+
+Do NOT:
+
+* Rewrite working functionality
+* Change the site's information architecture
+* Remove existing pages
+* Replace working interactions unnecessarily
+* Introduce unnecessary dependencies
+* Create a completely different design system
+* Turn the website into a SaaS-style interface
+* Overuse rounded cards
+* Overuse gradients
+* Overuse animations
+
+This is a visual refinement pass.
+
+### Verification
+
+After making the changes:
+
+1. Run the application.
+2. Inspect the homepage.
+3. Inspect every major page.
+4. Test desktop and mobile layouts.
+5. Check the browser console.
+6. Check the production build.
+7. Fix any visual or functional regressions.
+
+Do not stop at modifying the code. Actually inspect the rendered website.
+
+At the end, report:
+
+* Visual improvements made
+* Components/files changed
+* Any dependencies added
+* Any remaining visual issues
+* Whether the production build passes

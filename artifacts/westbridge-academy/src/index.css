@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
@@ -30,43 +30,43 @@
 }
 
 :root {
-  --background: 42 38% 94%;
-  --foreground: 200 30% 18%;
-  --border: 36 22% 82%;
-  --input: 36 22% 76%;
-  --ring: 16 52% 49%;
-  --card: 41 43% 97%;
-  --card-foreground: 200 30% 18%;
-  --primary: 200 30% 18%;
-  --primary-foreground: 42 38% 94%;
-  --secondary: 16 52% 49%;
-  --secondary-foreground: 42 38% 94%;
-  --muted: 39 25% 88%;
-  --muted-foreground: 200 13% 40%;
-  --accent: 70 52% 65%;
-  --accent-foreground: 200 30% 18%;
-  --radius: 0.2rem;
-  --app-font-sans: 'Manrope', sans-serif;
-  --app-font-serif: 'Fraunces', Georgia, serif;
+  --background: 43 33% 95%;
+  --foreground: 157 30% 16%;
+  --border: 46 15% 78%;
+  --input: 45 15% 72%;
+  --ring: 42 37% 48%;
+  --card: 45 38% 98%;
+  --card-foreground: 157 30% 16%;
+  --primary: 157 30% 16%;
+  --primary-foreground: 43 33% 95%;
+  --secondary: 42 37% 48%;
+  --secondary-foreground: 157 30% 16%;
+  --muted: 105 17% 88%;
+  --muted-foreground: 156 12% 39%;
+  --accent: 91 20% 73%;
+  --accent-foreground: 157 30% 16%;
+  --radius: 0.15rem;
+  --app-font-sans: 'Plus Jakarta Sans', sans-serif;
+  --app-font-serif: 'DM Serif Display', Georgia, serif;
   --app-font-mono: 'DM Mono', monospace;
 }
 
 .dark {
-  --background: 200 30% 18%;
-  --foreground: 42 38% 94%;
-  --border: 200 18% 30%;
-  --input: 200 18% 30%;
-  --ring: 16 52% 49%;
-  --card: 200 25% 22%;
-  --card-foreground: 42 38% 94%;
-  --primary: 42 38% 94%;
-  --primary-foreground: 200 30% 18%;
-  --secondary: 16 52% 49%;
-  --secondary-foreground: 42 38% 94%;
-  --muted: 200 18% 28%;
-  --muted-foreground: 39 16% 70%;
-  --accent: 70 52% 65%;
-  --accent-foreground: 200 30% 18%;
+  --background: 157 30% 16%;
+  --foreground: 43 33% 95%;
+  --border: 157 18% 29%;
+  --input: 157 18% 29%;
+  --ring: 42 37% 48%;
+  --card: 157 25% 20%;
+  --card-foreground: 43 33% 95%;
+  --primary: 43 33% 95%;
+  --primary-foreground: 157 30% 16%;
+  --secondary: 42 37% 48%;
+  --secondary-foreground: 157 30% 16%;
+  --muted: 156 18% 27%;
+  --muted-foreground: 45 16% 71%;
+  --accent: 91 20% 73%;
+  --accent-foreground: 157 30% 16%;
 }
 
 html { scroll-behavior: smooth; }
@@ -76,15 +76,16 @@ body {
   color: hsl(var(--foreground));
   font-family: var(--app-font-sans);
   font-feature-settings: "ss01" 1, "cv11" 1;
+  -webkit-font-smoothing: antialiased;
 }
 * { box-sizing: border-box; }
 ::selection { background: hsl(var(--accent)); color: hsl(var(--foreground)); }
 
-.display { font-family: var(--app-font-serif); letter-spacing: -0.045em; }
+.display { font-family: var(--app-font-serif); letter-spacing: -0.025em; font-weight: 400; }
 .mono { font-family: var(--app-font-mono); letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.69rem; }
 .text-balance { text-wrap: balance; }
-.eyebrow { color: hsl(var(--secondary)); font-family: var(--app-font-mono); font-size: .68rem; text-transform: uppercase; letter-spacing: .14em; font-weight: 500; }
-.container-wide { width: min(100% - 2.25rem, 1240px); margin-inline: auto; }
+.eyebrow { color: hsl(var(--secondary)); font-family: var(--app-font-mono); font-size: .64rem; text-transform: uppercase; letter-spacing: .18em; font-weight: 500; }
+.container-wide { width: min(100% - 3rem, 1240px); margin-inline: auto; }
 .rule { border-top: 1px solid hsl(var(--border)); }
 .noise::after { content:""; position:fixed; inset:0; pointer-events:none; opacity:.035; z-index:50; background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.65'/%3E%3C/svg%3E"); }
 .reveal { animation: reveal .7s cubic-bezier(.22,.61,.36,1) both; }
@@ -94,9 +95,9 @@ body {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
-.nav-link { position: relative; color: hsl(var(--foreground) / .74); transition: color .2s ease; }
+.nav-link { position: relative; color: hsl(var(--foreground) / .7); transition: color .2s ease; letter-spacing: .02em; }
 .nav-link:hover, .nav-link[aria-current="page"] { color: hsl(var(--foreground)); }
-.nav-link[aria-current="page"]::after { content:""; position:absolute; left:0; right:0; bottom:-7px; height:2px; background:hsl(var(--secondary)); }
+.nav-link[aria-current="page"]::after { content:""; position:absolute; left:0; right:0; bottom:-9px; height:1px; background:hsl(var(--secondary)); }
 .image-frame { overflow:hidden; background:hsl(var(--muted)); }
 .image-frame img { display:block; width:100%; height:100%; object-fit:cover; transition: transform .6s cubic-bezier(.22,.61,.36,1); }
 .image-frame:hover img { transform: scale(1.035); }
@@ -105,9 +106,44 @@ body {
 .field { width:100%; border:1px solid hsl(var(--border)); background:hsl(var(--card)); padding:.9rem 1rem; color:hsl(var(--foreground)); outline:none; border-radius:2px; transition: border-color .2s ease, box-shadow .2s ease; }
 .field:focus { border-color:hsl(var(--secondary)); box-shadow:0 0 0 3px hsl(var(--secondary)/.15); }
 .field::placeholder { color:hsl(var(--muted-foreground)/.7); }
-.btn-primary, .btn-secondary { display:inline-flex; align-items:center; justify-content:center; gap:.55rem; min-height:46px; padding:.75rem 1.2rem; border-radius:2px; font-weight:700; font-size:.78rem; letter-spacing:.02em; transition:transform .2s ease, background .2s ease, color .2s ease; cursor:pointer; }
+.btn-primary, .btn-secondary { display:inline-flex; align-items:center; justify-content:center; gap:.65rem; min-height:48px; padding:.8rem 1.3rem; border-radius:2px; font-weight:700; font-size:.7rem; letter-spacing:.1em; text-transform:uppercase; transition:transform .2s ease, background .2s ease, color .2s ease; cursor:pointer; }
 .btn-primary { background:hsl(var(--primary)); color:hsl(var(--primary-foreground)); }
 .btn-primary:hover { background:hsl(var(--secondary)); transform:translateY(-2px); }
 .btn-secondary { border:1px solid hsl(var(--primary)/.22); color:hsl(var(--primary)); }
 .btn-secondary:hover { background:hsl(var(--primary)); color:hsl(var(--primary-foreground)); transform:translateY(-2px); }
 .btn-primary:disabled, .btn-secondary:disabled { opacity:.55; cursor:not-allowed; transform:none; }
+
+/* The existing JSX uses a small set of brand colour utilities. Keep those
+   classes intact while translating them to the Westbridge identity. */
+[class*="bg-[#162d3c"] { background-color: hsl(157 30% 16%) !important; }
+[class*="text-[#162d3c"] { color: hsl(157 30% 16%) !important; }
+[class*="border-[#162d3c"] { border-color: hsl(157 30% 16% / .18) !important; }
+[class*="bg-[#f5f0e6"] { background-color: hsl(43 33% 95%) !important; }
+[class*="text-[#f5f0e6"] { color: hsl(43 33% 95%) !important; }
+[class*="border-[#f5f0e6"] { border-color: hsl(43 33% 95% / .2) !important; }
+[class*="bg-[#bb5f3d"] { background-color: hsl(42 37% 48%) !important; }
+[class*="text-[#bb5f3d"] { color: hsl(42 37% 48%) !important; }
+[class*="border-[#bb5f3d"] { border-color: hsl(42 37% 48%) !important; }
+[class*="bg-[#c6d36c"] { background-color: hsl(91 20% 73%) !important; }
+[class*="text-[#c6d36c"] { color: hsl(91 20% 73%) !important; }
+[class*="bg-[#e8e2d5"] { background-color: hsl(105 17% 88%) !important; }
+
+header { color: hsl(43 33% 95%); }
+header > div:first-child { background: hsl(42 37% 48%) !important; color: hsl(157 30% 16%) !important; border-color: hsl(43 33% 95% / .22) !important; }
+header .btn-primary { background: hsl(43 33% 95%) !important; color: hsl(157 30% 16%) !important; }
+header .btn-primary:hover { background: hsl(91 20% 73%) !important; }
+header .nav-link, header nav > a:not(.btn-primary) { color: hsl(43 33% 95% / .76); }
+header .nav-link:hover, header .nav-link[aria-current="page"], header nav > a:not(.btn-primary):hover { color: hsl(43 33% 95%); }
+
+.hero-image { filter: saturate(.78) contrast(1.04); }
+.hero-wash { background: linear-gradient(90deg, rgba(20, 52, 42, .84) 0%, rgba(20, 52, 42, .42) 47%, rgba(20, 52, 42, .12) 100%); }
+.hero-wash::after { content:""; position:absolute; inset:0; background:linear-gradient(0deg, rgba(20, 52, 42, .82), transparent 48%); }
+.hero-section { background-image: url('/images/westbridge-hero.jpg'); background-size: cover; background-position: center 58%; }
+.hero-section > .hero-image { opacity: .72 !important; }
+
+@media (max-width: 767px) {
+  .container-wide { width: min(100% - 2rem, 1240px); }
+  .display { letter-spacing: -.018em; }
+  .hero-wash { background: linear-gradient(0deg, rgba(20, 52, 42, .95) 3%, rgba(20, 52, 42, .5) 73%, rgba(20, 52, 42, .2)); }
+  .hero-image { object-position: 58% center; }
+}

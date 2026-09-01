@@ -28,11 +28,11 @@ function Brand({ light = false }: { light?: boolean }) {
 function Header() {
   const [open, setOpen] = useState(false);
   const [location] = useLocation();
-  return <header className="absolute left-0 right-0 top-0 z-40">
+  return <header className="site-header absolute left-0 right-0 top-0 z-40">
     <div className="border-b border-[#f5f0e6]/15 bg-[#bb5f3d] px-5 py-2 text-center text-[10px] font-bold tracking-[.12em] text-[#f5f0e6]">
       Admissions for 2026/27 are now open. <Link href="/admissions" className="ml-2 underline underline-offset-4">Start an application</Link>
     </div>
-    <div className="container-wide flex h-[82px] items-center justify-between">
+     <div className="container-wide flex h-[86px] items-center justify-between">
       <Brand light />
       <nav className="hidden items-center gap-7 md:flex" aria-label="Primary navigation">
         {navItems.map(item => <Link key={item.href} href={item.href} className={`nav-link text-xs font-semibold ${location === item.href ? 'text-current' : ''}`} aria-current={location === item.href ? 'page' : undefined} data-testid={`link-nav-${item.label.toLowerCase().replace(' ', '-')}`}>{item.label}</Link>)}
@@ -41,7 +41,7 @@ function Header() {
       </nav>
       <button className="grid h-10 w-10 place-items-center text-[#f5f0e6] md:hidden" onClick={() => setOpen(!open)} aria-label={open ? 'Close navigation' : 'Open navigation'} data-testid="button-mobile-menu">{open ? <X size={22} /> : <Menu size={22} />}</button>
     </div>
-    {open && <div className="absolute left-0 right-0 top-full border-t border-[#f5f0e6]/20 bg-[#162d3c] px-6 py-7 text-[#f5f0e6] shadow-xl md:hidden">
+     {open && <div className="mobile-nav absolute left-0 right-0 top-full border-t border-[#f5f0e6]/20 bg-[#162d3c] px-6 py-7 text-[#f5f0e6] shadow-xl md:hidden">
       <nav className="flex flex-col gap-5" aria-label="Mobile navigation">
         {navItems.map(item => <Link key={item.href} href={item.href} onClick={() => setOpen(false)} className="display text-2xl" data-testid={`link-mobile-${item.label.toLowerCase().replace(' ', '-')}`}>{item.label}</Link>)}
         <Link href="/contact" onClick={() => setOpen(false)} className="text-sm font-semibold" data-testid="link-mobile-book-visit">Book a campus visit</Link>
@@ -106,8 +106,8 @@ function PageIntro({ kicker, title, text, image }: { kicker: string; title: stri
 function Home() {
   return <Shell>
     <main>
-      <section className="relative flex min-h-[680px] items-end overflow-hidden bg-[#162d3c] text-[#f5f0e6] md:min-h-[780px]">
-        <img src={heroImage} alt="Westbridge students walking through the school courtyard" className="absolute inset-0 h-full w-full object-cover opacity-70" /><div className="absolute inset-0 bg-gradient-to-t from-[#162d3c] via-[#162d3c]/35 to-[#162d3c]/35" /><div className="absolute inset-0 bg-[#162d3c]/15" />
+       <section className="hero-section relative flex min-h-[680px] items-end overflow-hidden bg-[#162d3c] text-[#f5f0e6] md:min-h-[780px]">
+         <img src={heroImage} alt="Westbridge students walking through the school courtyard" className="hero-image absolute inset-0 h-full w-full object-cover opacity-70" /><div className="hero-wash absolute inset-0" /><div className="absolute inset-0 bg-[#162d3c]/15" />
         <div className="container-wide relative z-10 pb-16 pt-40 md:pb-24"><p className="eyebrow reveal text-[#c6d36c]">Abuja · Nigeria · Est. 2008</p><h1 className="display reveal reveal-delay mt-5 max-w-4xl text-6xl leading-[.88] md:text-[8.5rem]">Where curiosity<br /><span className="text-[#c6d36c]">becomes capability.</span></h1><p className="mt-8 max-w-xl text-base leading-7 text-[#f5f0e6]/75 md:text-lg">Westbridge International Academy provides an ambitious, nurturing education that prepares young people to thrive in Abuja, Nigeria and around the world.</p><div className="mt-9 flex flex-col gap-5 sm:flex-row sm:items-center"><ButtonLink href="/about">Explore Westbridge</ButtonLink><Link href="/contact" className="arrow-link inline-flex items-center gap-2 text-sm font-semibold text-[#f5f0e6]/80 hover:text-[#f5f0e6]" data-testid="link-hero-visit">Book a campus visit <ArrowDownRight size={16} /></Link></div></div>
         <div className="absolute bottom-5 right-5 hidden items-center gap-3 text-[#f5f0e6]/60 md:flex"><span className="h-px w-12 bg-[#f5f0e6]/50" /><span className="mono">Scroll to explore</span></div>
       </section>
