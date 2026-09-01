@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Westbridge International Academy"
+description = "A premium responsive website for Westbridge International Academy, a fictional independent international school in Abuja serving students from Early Years through Sixth Form."
+version = "1.0.0"
+id = "artifacts/westbridge-academy"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23408
+
+[services.development]
+run = "pnpm --filter @workspace/westbridge-academy run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/westbridge-academy", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/westbridge-academy/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23408"
+BASE_PATH = "/"
