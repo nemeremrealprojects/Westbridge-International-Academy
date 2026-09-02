@@ -1,0 +1,589 @@
+PASS 2 — HOMEPAGE EXCELLENCE
+
+We are continuing the existing Westbridge International Academy (WIA) website.
+
+The website is already functional and has already gone through a QA pass and a visual identity refinement. Do not rebuild the project from scratch. Do not change the technology stack. Do not replace working functionality.
+
+Your job in this pass is to make the homepage feel exceptionally polished, editorial, premium, emotionally compelling, and worthy of a leading international school in Abuja, Nigeria.
+
+PRIMARY GOAL
+
+Transform the homepage from “excellent school website” into something that feels like it was designed by a high-end international digital design studio.
+
+Think:
+
+- prestigious international school
+- sophisticated editorial design
+- warm and human
+- confident but understated
+- premium without looking expensive for the sake of it
+- distinctly African/Nigerian in atmosphere
+- modern without becoming futuristic
+- beautiful photography
+- excellent typography
+- generous whitespace
+- strong visual rhythm
+- subtle, purposeful interaction
+
+Do NOT make it look like a SaaS website, startup landing page, generic AI website, or luxury hotel website.
+
+---
+
+1. HERO SECTION — MAKE THIS THE STRONGEST PART
+
+Rework the hero composition without destroying the existing brand.
+
+The hero should immediately communicate:
+
+Westbridge International Academy
+Where curiosity becomes capability.
+
+The visitor should understand within seconds:
+
+- this is a serious school
+- it is international in outlook
+- it is based in Abuja
+- students are known, challenged, supported, and prepared for the future
+
+Visual direction
+
+Use a large, cinematic school image or carefully composed image treatment.
+
+Prioritize imagery that feels:
+
+- authentic
+- Nigerian/African
+- natural
+- warm
+- documentary/editorial
+- diverse
+- aspirational without being staged
+
+Avoid obviously AI-looking or generic stock-school photography.
+
+The hero should have strong visual hierarchy.
+
+The headline should be the dominant typographic element.
+
+Keep supporting text concise.
+
+Make the primary CTA highly visible.
+
+Suggested CTA hierarchy:
+
+Explore Westbridge
+Begin Your Journey
+
+Avoid filling the hero with too many buttons, badges, statistics, or decorative elements.
+
+Hero interaction
+
+Add subtle motion only where it improves the experience:
+
+- gentle image entrance
+- subtle text reveal
+- restrained movement while scrolling
+- refined hover states
+
+No excessive parallax.
+
+No flashy animation.
+
+Respect "prefers-reduced-motion".
+
+---
+
+2. NAVIGATION
+
+Refine the existing navigation so it feels extremely polished.
+
+Check:
+
+- spacing
+- typography
+- logo treatment
+- CTA button
+- hover states
+- active page state
+- mobile navigation
+
+The navigation should feel calm and confident.
+
+Avoid excessive borders, shadows, pills, or glassmorphism.
+
+If the existing announcement bar works well, preserve it but refine its spacing and typography.
+
+---
+
+3. HOMEPAGE STORYTELLING
+
+The homepage should feel like a carefully constructed narrative rather than a collection of sections.
+
+Create a natural story:
+
+INTRODUCTION
+
+Who Westbridge is.
+
+↓
+
+EDUCATIONAL PHILOSOPHY
+
+How students learn and grow.
+
+↓
+
+ACADEMIC JOURNEY
+
+What the student experience looks like from Early Years through Secondary.
+
+↓
+
+LIFE AT WESTBRIDGE
+
+What it feels like to actually belong to the school.
+
+↓
+
+COMMUNITY
+
+Students, teachers, parents, and Abuja.
+
+↓
+
+ADMISSIONS
+
+A clear invitation to take the next step.
+
+Each section should feel like it belongs to the same visual story.
+
+---
+
+4. IMPROVE THE "ABOUT" SECTION
+
+Make the existing introduction/about section more editorial.
+
+Avoid a generic:
+
+"Welcome to our school" + paragraph + three cards.
+
+Instead, create stronger visual hierarchy.
+
+Use:
+
+- large statement
+- concise supporting copy
+- strong photography
+- intentional whitespace
+- asymmetric or editorial composition where appropriate
+
+The visitor should feel:
+
+“These people genuinely care about education.”
+
+---
+
+5. ACADEMIC JOURNEY
+
+Make the academic stages visually memorable.
+
+Present:
+
+- Early Years
+- Primary
+- Secondary
+
+as part of one coherent educational journey.
+
+Avoid making every stage look like an identical card.
+
+Consider:
+
+- alternating layouts
+- large numbers
+- photography
+- editorial labels
+- subtle dividers
+- strong typography
+- visual progression
+
+The section should communicate progression and continuity.
+
+---
+
+6. "WHY WESTBRIDGE" SECTION
+
+This section should communicate the school's strongest differentiators.
+
+Prioritize ideas such as:
+
+- academic excellence
+- character and confidence
+- individual attention
+- international perspective
+- technology and future readiness
+- community
+- wellbeing
+- leadership
+
+Do not simply create eight identical icon cards.
+
+Instead, create visual hierarchy.
+
+One or two ideas can be dominant, with supporting ideas arranged around them.
+
+Keep the layout sophisticated and breathable.
+
+---
+
+7. CAMPUS / PLACE
+
+Strengthen the sense that Westbridge exists in Abuja.
+
+The visitor should feel a sense of place.
+
+Use imagery and copy that suggest:
+
+- Abuja's environment
+- greenery
+- spaciousness
+- contemporary architecture
+- community
+- Nigerian identity
+- calm and purposeful learning environments
+
+Do not use stereotypical African visual clichés.
+
+The African identity should feel natural and contemporary, not decorative.
+
+---
+
+8. STUDENT LIFE
+
+Make this section emotionally engaging.
+
+The visitor should be able to imagine a student actually living the Westbridge experience.
+
+Show or communicate:
+
+- friendships
+- sports
+- arts
+- clubs
+- leadership
+- creativity
+- collaboration
+- discovery
+- school traditions
+
+Use photography as storytelling rather than decoration.
+
+Avoid a repetitive grid of identical cards.
+
+---
+
+9. TESTIMONIAL
+
+Make the parent/student testimonial feel authentic.
+
+Use a strong editorial treatment.
+
+Large quotation.
+
+Small attribution.
+
+Beautiful supporting image if appropriate.
+
+Do not make it look like a review widget.
+
+The testimonial should feel like part of the school's story.
+
+---
+
+10. NEWS & EVENTS
+
+Keep this section clean and useful.
+
+Prioritize:
+
+- upcoming events
+- school news
+- important announcements
+
+Avoid making it look like a generic blog grid.
+
+Use strong typography and concise metadata.
+
+---
+
+11. FINAL ADMISSIONS CTA
+
+The final CTA should feel like a natural conclusion to the entire homepage.
+
+It should answer:
+
+“What should I do next?”
+
+Create a confident, warm closing section.
+
+Possible messaging direction:
+
+Your child's next chapter begins here.
+
+Supporting copy should be concise.
+
+Primary action:
+
+Explore Admissions
+
+Secondary action:
+
+Book a Visit
+
+Make this section visually memorable without becoming overly decorative.
+
+---
+
+12. TYPOGRAPHY
+
+Review the entire homepage typography.
+
+Improve:
+
+- heading scale
+- line height
+- paragraph width
+- hierarchy
+- section labels
+- button typography
+- navigation typography
+
+Use typography to create rhythm.
+
+Large headlines should have room to breathe.
+
+Avoid excessive bold text.
+
+Avoid long paragraphs.
+
+---
+
+13. SPACING
+
+This is extremely important.
+
+Increase whitespace where necessary.
+
+The homepage should never feel cramped.
+
+Use consistent vertical rhythm between:
+
+- section labels
+- headings
+- paragraphs
+- buttons
+- images
+- content blocks
+
+Premium design often comes from space and restraint, not decoration.
+
+---
+
+14. COLOR
+
+Maintain the established Westbridge palette:
+
+- deep forest green
+- warm ivory
+- muted gold
+- charcoal / deep green
+- subtle sage
+
+Use gold sparingly.
+
+Gold should feel like an accent, not the dominant color.
+
+Avoid gradients unless they are extremely subtle and genuinely improve readability.
+
+---
+
+15. IMAGERY
+
+Review every homepage image.
+
+Prioritize a coherent photographic language.
+
+Images should feel like they belong to the same school and the same world.
+
+Prefer:
+
+- natural expressions
+- real-looking environments
+- diverse Nigerian/African students
+- authentic classroom moments
+- outdoor learning
+- sports
+- arts
+- teachers interacting naturally with students
+
+Avoid:
+
+- overly posed stock photography
+- generic Western private-school imagery
+- unrealistic architecture
+- futuristic classrooms
+- cheesy smiling-at-camera compositions
+
+If the current image assets are weak, replace them with better appropriate assets where practical.
+
+---
+
+16. RESPONSIVE DESIGN
+
+Do not optimize only for desktop.
+
+Inspect the homepage at:
+
+- 1440px
+- 1280px
+- 1024px
+- 768px
+- 390px
+- 375px
+
+On mobile:
+
+- preserve the visual hierarchy
+- avoid oversized headings that create awkward wrapping
+- ensure CTAs remain accessible
+- prevent horizontal overflow
+- maintain comfortable spacing
+- ensure images crop beautifully
+- make navigation excellent
+- keep sections visually interesting without becoming excessively long
+
+The mobile version should feel designed, not merely compressed.
+
+---
+
+17. ACCESSIBILITY
+
+Maintain or improve:
+
+- semantic HTML
+- heading hierarchy
+- keyboard navigation
+- visible focus states
+- sufficient contrast
+- alt text
+- accessible buttons
+- accessible mobile navigation
+- reduced-motion support
+
+Do not sacrifice accessibility for visual effects.
+
+---
+
+18. PERFORMANCE
+
+Do not introduce unnecessary heavy dependencies.
+
+Avoid:
+
+- excessive animation libraries
+- huge image files
+- unnecessary video backgrounds
+- expensive effects
+- duplicated components
+
+Keep the homepage fast.
+
+---
+
+19. IMPORTANT DESIGN RULES
+
+DO:
+
+- refine what already works
+- preserve the existing architecture
+- reuse existing components where appropriate
+- create reusable components only when genuinely useful
+- make deliberate visual improvements
+- inspect the actual rendered website
+- fix issues you discover
+
+DO NOT:
+
+- rebuild the entire application
+- change frameworks
+- replace the existing design system unnecessarily
+- turn every section into cards
+- add excessive gradients
+- add glassmorphism
+- add neon colors
+- add excessive rounded corners
+- add excessive animation
+- add unnecessary badges
+- add fake statistics
+- add fake awards
+- add fake accreditation
+- add fake school claims
+- add generic AI-generated marketing language
+- break existing routes or functionality
+
+---
+
+20. FINAL QA — REQUIRED
+
+After implementing the improvements:
+
+1. Run the application.
+2. Open the homepage in the browser.
+3. Scroll through the entire page.
+4. Inspect every section visually.
+5. Test navigation.
+6. Test every homepage CTA.
+7. Test mobile navigation.
+8. Test at 390px and 375px widths.
+9. Check for horizontal scrolling.
+10. Check browser console errors.
+11. Check broken images.
+12. Check broken links.
+13. Check malformed JSX.
+14. Check unused imports.
+15. Check accessibility issues.
+16. Check animation behavior.
+17. Check "prefers-reduced-motion".
+18. Run the production build if available.
+
+IMPORTANT
+
+Do not stop after editing files.
+
+Actually inspect the rendered website and correct anything that looks wrong.
+
+When finished, give me a concise report containing:
+
+CHANGES MADE
+
+- major visual improvements
+- sections refined
+- imagery changes
+- responsive improvements
+- interaction improvements
+
+FILES CHANGED
+
+List the main files modified.
+
+QA RESULT
+
+State whether:
+
+- app runs successfully
+- production build passes
+- console is clean or what remains
+- mobile was checked
+- any known limitations remain
+
+This is Pass 2 only. Keep the scope focused on homepage excellence.

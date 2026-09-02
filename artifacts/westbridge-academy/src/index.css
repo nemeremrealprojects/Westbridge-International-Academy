@@ -113,6 +113,24 @@ body {
 .btn-secondary:hover { background:hsl(var(--primary)); color:hsl(var(--primary-foreground)); transform:translateY(-2px); }
 .btn-primary:disabled, .btn-secondary:disabled { opacity:.55; cursor:not-allowed; transform:none; }
 
+/* Premium editorial refinements */
+.hero-image { animation: hero-image-in 1.1s cubic-bezier(.22,.61,.36,1) both; }
+.hero-wash { background: linear-gradient(180deg, rgb(22 45 60 / .28) 0%, rgb(22 45 60 / .12) 42%, rgb(22 45 60 / .9) 100%); }
+.nav-link { color: rgb(245 240 230 / .72); }
+.nav-link:hover, .nav-link[aria-current="page"] { color: #f5f0e6; }
+.header-apply { background: #f5f0e6; color: #162d3c; }
+.header-apply:hover { background: #c6d36c; color: #162d3c; }
+.button-on-dark { border-color: rgb(245 240 230 / .5); color: #f5f0e6; }
+.button-on-dark:hover { background: #f5f0e6; color: #162d3c; }
+.journey-row, .news-row { transition: background-color .25s ease, padding-inline .25s ease; }
+.journey-row:hover { background: rgb(232 226 213 / .55); padding-inline: .75rem; }
+.news-row:hover { background: rgb(232 226 213 / .45); padding-inline: .75rem; }
+@keyframes hero-image-in { from { transform: scale(1.035); } to { transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) {
+  .hero-image { animation: none; }
+  .journey-row, .news-row { transition: none; }
+}
+
 /* The existing JSX uses a small set of brand colour utilities. Keep those
    classes intact while translating them to the Westbridge identity. */
 [class*="bg-[#162d3c"] { background-color: hsl(157 30% 16%) !important; }
